@@ -1,10 +1,17 @@
 {
   "private": true,
   "scripts": {
-    "build": "tsc -p ."
+    "serve": "serve .",
+    "build:ts": "tsc -p .",
+    "build:res": "rescript build"
   },
   "license": "ISC",
   "devDependencies": {
+    "rescript": "^10.1.4",
+    "serve": "^14.2.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "rescript-webapi": "^0.8.0"
   }
 }
